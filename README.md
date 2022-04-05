@@ -12,7 +12,10 @@ All of us should be thouroughly comfortable with [wav2vec](https://arxiv.org/abs
 Some useful tools:(how to get unstuck)
 
 1. ipdb/pdb -> putting breakpoints in code and running line by line . We use this all the time in the industry.
-2. Understand one component at a time. For instance wav2vec uses CTC loss. look for implementations of CTC loss and step through the code with ipdb/pdb.
+
+2. Understand one component at a time. For instance wav2vec uses CTC loss. look for implementations of CTC loss and step through the code with ipdb/pdb. pay attention to shapes,types of tensors and form a mental model of the code.
+
+3. Annotate/commenting the code - your future version or others will greatly appreciate this.
 
 
 
