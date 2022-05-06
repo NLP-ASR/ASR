@@ -33,3 +33,9 @@ Implement a working prototype of Knowledge distillation + write the first draft 
 `Govind`
 
 Run an end-end Wave2vec2.0 model.
+
+
+## Lessons
+
+1. install fairseq_mod.
+2. torch._overrides to torch.overrides
