@@ -2,7 +2,7 @@
 Automatic Speech Recognition
 
 # USAGE
-Navigate to `ASR/Bigfoot/examples/wav2vec2_compression_demo` and run `wav2vec2_compression_demo.py`. To specify the config modify the `demo_config.yaml`. The default params shows how to run 4 layer transformer wave2vec model with weight sharing in conv layers sperified by `conv_groups: 2` parameter. Set `change_conv_layers: False` to run default architechure.
+Navigate to `ASR/Bigfoot/examples/wav2vec2_compression_demo` and run `wav2vec2_compression_demo.py`. To specify the config modify the `demo_config.yaml`. The default params shows how to run 4 layer transformer wave2vec model with weight sharing in conv layers sperified by `conv_groups: 2` parameter. Set `change_conv_layers: False` to run default architechure. We modified the code at [kdtoolkit](https://github.com/georgian-io/Knowledge-Distillation-Toolkit) for our task.
 
 
 ## Timeline(comments for the team)
