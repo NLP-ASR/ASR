@@ -9,7 +9,7 @@ Navigate to `ASR/Bigfoot/examples/wav2vec2_compression_demo` and run `wav2vec2_c
 1. Weight shared(cnn) student model with 4 Transformer layers: https://drive.google.com/file/d/10fbt3q-a4MyNRTHkeqvccj0sOIa79hB9/view?usp=sharing
 
 
-## Timeline(comments for the team)
+## Timeline(comments for the Team)
 
 STEP 1: Due (Apr 10, Monday)
 These are the minimal requirements, we can do anything else that benefits the overall project.
