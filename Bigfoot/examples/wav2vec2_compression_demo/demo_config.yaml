@@ -9,10 +9,10 @@ data_loader:
      train_on_dev_clean: False
 
      # Path to the training dataset
-     train_data_path: '/common/users/vk405/Data/Data_wav2vec/data'
+     train_data_path: '/home/govindkgangadhar/Knowledge-Distillation-Toolkit/examples/wav2vec2_compression_demo/datasets'
 
      # Path to the validation dataset
-     val_data_path: '/common/users/vk405/Data/Data_wav2vec/data'
+     val_data_path: '/home/govindkgangadhar/data'
 
      # Number of training samples per batch on 1 gpu
      train_batch_size: 4
@@ -40,7 +40,7 @@ knowledge_distillation:
         num_gpu_used: 4
 
         # Path to fairseq pretrained wav2vec 2.0 model. This model is used to initialize the teacher model as well as argument set up of the student model
-        fairseq_pretrained_model_path: "/common/users/vk405/Data/Data_wav2vec/wav2vec_big_960h.pt"
+        fairseq_pretrained_model_path: "/home/govindkgangadhar/wav2vec_big_960h.pt"
 
         # Temperature for knowledge distillation
         temperature: 1
@@ -85,7 +85,7 @@ knowledge_distillation:
         num_trans_layer_student_init_model: 12
 
         # Path to the model check point that is used to initialize the student model
-        student_init_model_path: "/common/users/vk405/Data/Data_wav2vec/wav2vec_big_960h.pt"
+        student_init_model_path: "/home/govindkgangadhar/checkpoints/epoch_59-step_107039.ckpt"
         #"/common/users/vk405/student-epoch=040-train_final_loss=0.08149.ckpt"
         #"/common/home/vk405/Projects/Data/Data_wav2vec/wav2vec_big_960h.pt"
 
