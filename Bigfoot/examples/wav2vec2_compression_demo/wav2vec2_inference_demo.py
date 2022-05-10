@@ -15,7 +15,7 @@ from fairseq_mod.models.wav2vec.teacher_wav2vec2 import TeacherWav2Vec2Model
 from codecarbon import EmissionsTracker
 
 if __name__ == "__main__":
-    MODEL_LOAD_PATH = "/home/Knowledge-Distillation-Toolkit/examples/wav2vec2_compression_demo/speech-processing/retrain_exp9/checkpoints/student-epoch=042-train_final_loss=0.08857.ckpt"
+    MODEL_LOAD_PATH = "/home/govindkgangadhar/checkpoints/epoch_59-step_107039.ckpt"
     config = yaml.load(open('demo_config.yaml','r'), Loader=yaml.FullLoader)
     target_dict = fairseq_mod.data.Dictionary.load('ltr_dict.txt')
 
